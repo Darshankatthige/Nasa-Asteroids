@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Nasa-Asteroids/static/css/main.af95c592.css",
-    "main.js": "/Nasa-Asteroids/static/js/main.95c3f632.js",
+    "main.js": "/Nasa-Asteroids/static/js/main.66405ce1.js",
     "static/js/787.f4556be3.chunk.js": "/Nasa-Asteroids/static/js/787.f4556be3.chunk.js",
     "static/media/emoji.jpg": "/Nasa-Asteroids/static/media/emoji.410e0f2af481b67f6479.jpg",
     "index.html": "/Nasa-Asteroids/index.html",
     "main.af95c592.css.map": "/Nasa-Asteroids/static/css/main.af95c592.css.map",
-    "main.95c3f632.js.map": "/Nasa-Asteroids/static/js/main.95c3f632.js.map",
+    "main.66405ce1.js.map": "/Nasa-Asteroids/static/js/main.66405ce1.js.map",
     "787.f4556be3.chunk.js.map": "/Nasa-Asteroids/static/js/787.f4556be3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af95c592.css",
-    "static/js/main.95c3f632.js"
+    "static/js/main.66405ce1.js"
   ]
 }
