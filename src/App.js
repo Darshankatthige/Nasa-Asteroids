@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import { Astrtoid } from "./views/Asteroids";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./views/Home/Home";
 import { NavBar } from "./container/NavBar";
 import { Details } from "./views/Details";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <BrowserRouter>
+      <HashRouter>
         <React.Suspense>
           <Routes >
             <Route
@@ -38,7 +38,7 @@ function App() {
             <Route path="/details/" name="Home" element={<Details />} />
           </Routes>
         </React.Suspense>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
