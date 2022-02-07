@@ -22,7 +22,7 @@ function App() {
               name="Intruduction Page"
               element={<Astrtoid />}
             />
-            <Route path="/" name="Home" element={<Home />} />
+            <Route exact path="/" name="Home" element={<Home />} />
             <Route
               path="/search/date"
               name="Home"
