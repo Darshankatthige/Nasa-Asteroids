@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import { Astrtoid } from "./views/Asteroids";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./views/Home/Home";
 import { NavBar } from "./container/NavBar";
 import { Details } from "./views/Details";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <HashRouter>
+      <BrowserRouter>
         <React.Suspense>
           <Routes >
             <Route
@@ -22,7 +22,7 @@ function App() {
               name="Intruduction Page"
               element={<Astrtoid />}
             />
-            <Route path="/" name="Home" element={<Home />} />
+            <Route exact path="/" name="Home" element={<Home />} />
             <Route
               path="/search/date"
               name="Home"
@@ -38,7 +38,7 @@ function App() {
             <Route path="/details/" name="Home" element={<Details />} />
           </Routes>
         </React.Suspense>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
